@@ -1,6 +1,9 @@
  # include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello world" << endl;
+    string name;
+    cout << "Enter your name, please: ";
+    cin >> name;
+    cout << "Hello world from " << name;
     return 0;
 }
