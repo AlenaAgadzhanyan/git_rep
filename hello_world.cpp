@@ -1,9 +1,11 @@
  # include <iostream>
-using namespace std;
 int main() {
-    string name;
-    cout << "Enter your name, please: ";
-    cin >> name;
-    cout << "Hello world from " << name;
+    // переменная для имени пользователя
+    std::string name;
+    std::cout << "Enter your name, please: ";
+    // ввод имени пользователя
+    std::cin >> name;
+    // вывод приветствия
+    std::cout << "Hello world from " << name;
     return 0;
 }
